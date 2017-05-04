@@ -2,4 +2,4 @@
     name: openstack-infra/openstack-zuul-roles
     check:
       jobs:
-        - noop
+        - tox-linters
