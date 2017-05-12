@@ -1,0 +1,13 @@
+Verified+1: Zuul
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Code-Review+1: K Jonathan Harker <code@gentlydownthe.net>
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Code-Review+2: David Shrewsbury <shrewsbury.dave@gmail.com>
+Code-Review+1: Tobias Henkel <tobias.henkel@bmw.de>
+Workflow+1: Paul Belanger <pabelanger@redhat.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 12 May 2017 18:33:48 +0000
+Reviewed-on: https://review.openstack.org/462249
+Project: openstack-infra/openstack-zuul-roles
+Branch: refs/heads/master
