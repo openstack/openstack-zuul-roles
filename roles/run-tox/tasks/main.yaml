@@ -1,4 +1,4 @@
 - name: Run tox
-  shell: "/usr/local/jenkins/slave_scripts/run-tox.sh {{ run_tox_envlist }}"
+  shell: "/usr/local/jenkins/slave_scripts/run-tox.sh {{ envlist }}"
   args:
     chdir: "{{ zuul_workspace_root }}/src/{{ zuul.project.canonical_name }}"

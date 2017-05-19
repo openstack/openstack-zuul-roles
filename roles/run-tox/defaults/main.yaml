@@ -1,2 +1,4 @@
 ---
+# TODO(pabelanger): Remove in the following comment to unwedge gate.
 run_tox_envlist:
+envlist: "{{ run_tox_envlist }}"
