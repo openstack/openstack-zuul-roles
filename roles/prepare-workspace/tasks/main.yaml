@@ -1,12 +1,6 @@
-- name: Ensure console.log does not exist.
-  file:
-    path: /tmp/console.log
-    state: absent
-
+# TODO(pabelanger): Handle cleanup on static nodes
 - name: Start zuul_console daemon.
   zuul_console:
-    path: /tmp/console.log
-    port: 19885
 
 - name: Create workspace directory.
   file:
