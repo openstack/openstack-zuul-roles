@@ -1,0 +1,6 @@
+- name: Collect logs from remote hosts.
+  synchronize:
+    dest: "{{ zuul.executor.log_root }}"
+    mode: pull
+    src: "logs/"
+  no_log: true
