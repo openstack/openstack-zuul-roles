@@ -1,0 +1,9 @@
+Code-Review+2: Clark Boylan <cboylan@sapwetik.org>
+Code-Review+2: Monty Taylor <mordred@inaugust.com>
+Workflow+1: Monty Taylor <mordred@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Wed, 28 Jun 2017 21:53:17 +0000
+Reviewed-on: https://review.openstack.org/478646
+Project: openstack-infra/openstack-zuul-roles
+Branch: refs/heads/master
