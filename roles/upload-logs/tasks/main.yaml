@@ -17,6 +17,6 @@
 
 - name: Upload logs to log server
   synchronize:
-    src: "{{ zuul.executor.log_root }}"
-    dest: "/srv/static/logs/{{ log_path }}"
+    src: "{{ zuul.executor.log_root }}/"
+    dest: "/srv/static/logs/{{ log_path }}/"
   no_log: true
