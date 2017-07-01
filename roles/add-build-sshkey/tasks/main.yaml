@@ -1,5 +1,6 @@
 - name: Check to see if ssh key was already created for this build
-  stat: "{{ zuul_temp_ssh_key }}"
+  stat:
+    path: "{{ zuul_temp_ssh_key }}"
   register: zuul_temp_ssh_key_stat
   delegate_to: localhost
   failed_when: false
