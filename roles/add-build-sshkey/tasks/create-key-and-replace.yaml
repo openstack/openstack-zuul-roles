@@ -9,7 +9,7 @@
     key: "{{ lookup('file', zuul_temp_ssh_key + '.pub') }}"
 
 - name: Remove all keys from local agent
-  command: ssh-add -d
+  command: ssh-add -D
   delegate_to: localhost
 
 - name: Add back temp key
