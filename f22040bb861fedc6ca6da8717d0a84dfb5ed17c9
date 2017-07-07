@@ -1,0 +1,9 @@
+Verified+1: Zuul
+Code-Review+2: James E. Blair <corvus@inaugust.com>
+Workflow+1: James E. Blair <corvus@inaugust.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Fri, 07 Jul 2017 20:49:03 +0000
+Reviewed-on: https://review.openstack.org/481334
+Project: openstack-infra/openstack-zuul-roles
+Branch: refs/heads/master
