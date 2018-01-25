@@ -1,6 +1,4 @@
 - project:
-    name: openstack-infra/openstack-zuul-roles
     check:
       jobs:
         - tox-docs
-        - tox-linters
