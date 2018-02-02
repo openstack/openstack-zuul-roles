@@ -1,0 +1,8 @@
+Code-Review+2: Andreas Jaeger <jaegerandi@gmail.com>
+Workflow+1: Andreas Jaeger <jaegerandi@gmail.com>
+Verified+2: Zuul
+Submitted-by: Zuul
+Submitted-at: Fri, 02 Feb 2018 15:17:04 +0000
+Reviewed-on: https://review.openstack.org/540378
+Project: openstack-infra/openstack-zuul-roles
+Branch: refs/heads/master
